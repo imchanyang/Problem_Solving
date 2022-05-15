@@ -18,7 +18,6 @@ int main() {
         if(word.length() > 3) {
             sort(word.begin()+1, word.end()-1);
         }
-
         dictionary.push_back(word);
     }
 
@@ -52,9 +51,7 @@ int main() {
             else {
                 word_ += sentence[i];
             }
-
         }
-
 
         int mul = 1;
         for(int i = 0; i < stringInfo.size(); i++) {
@@ -67,9 +64,6 @@ int main() {
             mul *= count;
         }
             cout << mul << endl;
-
-
-
     }
     return 0;
 }
