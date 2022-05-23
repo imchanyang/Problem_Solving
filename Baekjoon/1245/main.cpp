@@ -5,7 +5,7 @@
 using namespace std;
 
 int farm[100][70];
-bool visited[100][70] {false, };
+bool visited[100][70] = {false, };
 bool flag = true;
 
 int x[8] = {-1, -1, -1, 0, 0, 1, 1, 1};
